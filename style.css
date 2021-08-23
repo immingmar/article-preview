@@ -1,0 +1,87 @@
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    width: 50%;   
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-top: 13%;
+}
+
+.image-box {
+    background-image: url("images/drawers.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 37%;
+    height: 250px;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;    
+}
+
+.content-box {
+    width: 65%;
+    height: 250px;
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;    
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    row-gap: 1rem;
+    justify-content: center;
+    margin: 0 45px;
+
+}
+
+
+.title {
+    font-weight: 700;
+}
+.excerpt {
+    font-size: 13px;
+}
+
+.profile {
+    font-size: 13px;
+    display: flex;
+    column-gap: 1rem;    
+}
+
+#profile-name {
+    font-weight: 700;
+}
+
+#profile-details {
+    flex-grow: 2;
+}
+
+
+#profile-img {
+    background-image: url("images/avatar-michelle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 11%;
+}
+
+.share-button {
+    border-radius: 100%;
+    border-style: none;
+    width: 10%;
+}
+
+
+
