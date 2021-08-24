@@ -83,5 +83,37 @@ body {
     width: 10%;
 }
 
+@media (max-width:375px) {
+    .flex-container {
+        flex-direction: column;
+        margin-top: 14%;
+        padding: 0 5%;
+        width: unset;
+    }
+
+    #contents {
+        margin: 5px 30px;
+    }
+
+    #profile-img {
+        width: 14%;
+    }
+
+    .share-button {
+        width: 14%;
+    }
+
+    .content-box {
+        border-bottom-left-radius: 3%;
+        border-bottom-right-radius: 3%;
+        width: 100%;
+    }
+
+    .image-box {
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        width: 100%;
+    }
+}
 
 
